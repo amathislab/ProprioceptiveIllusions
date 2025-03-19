@@ -5,7 +5,7 @@
 </p>
 
 ## Authors
-Adriana Perez Rotondo\*, Merkourios Simos\*, Florian David, Olaf Blanke, & Alexander Mathis
+Adriana Perez Rotondo\*, Merkourios Simos\*, Florian David, Sebastian Pigeon, Olaf Blanke, & Alexander Mathis
 
 \*These authors contributed equally to this work.
 
@@ -17,6 +17,8 @@ Proprioception is essential for perception and action. Like any other sense, pro
 We investigate these illusions with task-driven models that have been trained to infer the state of the body from distributed sensory muscle spindle inputs (primary and secondary afferents). Recent work has shown that such models exhibit representations similar to the neural code along the ascending proprioceptive pathway.
 
 Importantly, we did not train the models on illusion experiments and simulated muscle-tendon vibrations by considering their effect on primary afferents. Our results demonstrate that task-driven models are indeed susceptible to proprioceptive illusions, with the magnitude of the illusion depending on the vibration frequency. This work illustrates that primary afferents alone are sufficient to account for these classic illusions and provides a foundation for future theory-driven experiments.
+
+The preprint is available on [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.03.15.643457v1). 
 
 > **Note:** The code and datasets will be available soon!
 
@@ -58,7 +60,7 @@ If you find this work useful in your research, please consider citing our paper:
 
 This code for this project is partly based on two previous works in the lab: [DeepDraw](https://github.com/amathislab/DeepDraw), and [Task-driven-Proprioception](https://github.com/amathislab/Task-driven-Proprioception). We thank the authors of these works for their contributions, and we encourage you to check them out!
 
-We thank Alberto Chiappa and Andy Bonnetto for helpful technical input. We thank Michael Dimitriou, Anne Kavounoudias, Bianca Ziliotto and Alessandro Marin Vargas for discussions.
+We thank Alberto Chiappa and Andy Bonnetto for their helpful technical input. We thank Michael Dimitriou, Anne Kavounoudias, Bianca Ziliotto and Alessandro Marin Vargas for discussions.
 
 This project is funded by Swiss SNF grant (310030_212516), and EPFL's Excellence Research Internship Program and University of Toronto's ESROP-ExOp for S.P.
 
