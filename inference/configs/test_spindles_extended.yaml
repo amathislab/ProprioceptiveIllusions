@@ -1,0 +1,14 @@
+# PATH_TO_DATA: null
+# EXPERIMENT_ID: null
+MODEL_PATH_PREFIX: "optimized_linear_extended"
+TASK: "letter_reconstruction_joints"
+KEY: "spindle_firing"
+RETRAIN: False
+START_END_IDX: [0, 30000]
+CAUSAL: True
+BATCH_SIZE: 64
+spindle_dataset: True
+build_fc: False
+layer_norm: False
+datasets_to_test: ["FLAG_PCR", "EF3D", "ES3D"]
+flag_split: 1342 # index of last flag trial in the test dataset
